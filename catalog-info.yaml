@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Backstage-Test"
+  description: An example of a repository creation.
+  annotations:
+    github.com/project-slug: sparkemblem/backstage-example
+
+spec:
+  type: service
+  owner: "user:default/guest"
+  lifecycle: experimental
